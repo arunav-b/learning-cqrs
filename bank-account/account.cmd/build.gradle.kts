@@ -1,11 +1,17 @@
 plugins {
     id("org.springframework.boot") version ("2.7.3")
     id("io.spring.dependency-management") version ("1.0.13.RELEASE")
-    id("my-java-library")
+    id("java")
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 dependencies {
     implementation(project(":account.common"))
+    implementation(project(":cqrs.core"))
 
     implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
     implementation("org.springframework.boot:spring-boot-starter-web")

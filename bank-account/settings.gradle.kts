@@ -1,6 +1,6 @@
 pluginManagement {
     repositories.gradlePluginPortal()
-    includeBuild("gradle/plugins")
+//    includeBuild("gradle/plugins")
 }
 
 dependencyResolutionManagement {

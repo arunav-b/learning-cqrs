@@ -1,7 +1,12 @@
 plugins {
     id("org.springframework.boot") version ("2.7.3")
     id("io.spring.dependency-management") version ("1.0.13.RELEASE")
-    id("my-java-library")
+    id("java")
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 dependencies {
