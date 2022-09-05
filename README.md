@@ -2,6 +2,8 @@
 
 > We'll learn about the CQRS Architectural Pattern by building a project a Bank Account Project
 
+<br/>
+
 ## Some keep concepts
 
 ### Message
@@ -22,9 +24,13 @@ Event is a message that is generated after processing a message.
 
 Query is an enquiry on a domain object.
 
+<br/>
+
 ## Mediator Pattern
 
- <img src="./images/mediator.png" width="25%">
+Mediator design pattern can be used for dispatching commands to appropriate command handlers.
+
+ <img src="./bank-account/images/mediator.png" width="100%">
 
 ### Command Dispatcher
 
