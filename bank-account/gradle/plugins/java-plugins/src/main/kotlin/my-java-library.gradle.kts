@@ -1,4 +1,9 @@
 plugins {
     id("java-library")
-    id("my-java")
+//    id("my-java")
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }

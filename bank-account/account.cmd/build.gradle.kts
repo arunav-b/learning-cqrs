@@ -6,7 +6,6 @@ plugins {
 
 dependencies {
     implementation(project(":account.common"))
-    implementation(project(":cqrs.core"))
 
     implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
     implementation("org.springframework.boot:spring-boot-starter-web")
