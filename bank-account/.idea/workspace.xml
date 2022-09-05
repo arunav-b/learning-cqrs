@@ -4,12 +4,200 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="689a5362-b567-4b29-a90f-1443814f2b80" name="Changes" comment="Uncommented code">
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51bc398d573808bd24599d1d2cf5190945cb98f0" beforeDir="false" />
+    <list default="true" id="689a5362-b567-4b29-a90f-1443814f2b80" name="Changes" comment="Deleted unnecessary files">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/CloseAccountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/DepositFundsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/OpenAccountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/WithdrawFundsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.cmd/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.common/src/main/java/com/techbank/account/common/dto/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.query/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cqrs.core/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cqrs.core/src/main/java/com/techbank/cqrs/core/commands/BaseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cqrs.core/src/main/java/com/techbank/cqrs/core/messages/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors15c80wxji7qdhvcsteytc58m6 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors16h8i8yvcoyu6adqodek0vazl 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors1crcmgpg53bs3tut9tzeov9zs 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors1je17tzadwn2i8n7cte4ejjuc 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors1togd3myxkhlxm3hm03it918y 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors1y0x5zjrw062ti39iwig4ztsq 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors20m89wvqrtvolhrxzuq1utrar 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors21zhoq018jw7yza6oupdxasaq 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors2oadk7let745pm8ahqypkqzlk 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors2s1m7qhtdel2iy5x5gc2gv6f5 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors30fkku080rcvoj344u192bkfh 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors32yk85ycsljiuajc2oknj21lt 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors33qjl5yednlyp9tyvd6yykvt5 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors3dn3adhcpitetfd8lbt7c66zr 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors3lkj8uvuyc1fes1zjdaceqluw 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors45cftp2do14y8dm8cnj0yfjzm 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors46nwrg1rs44ofdqpi7vyy3pfc 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors49985hyy071qu5jjdlrughl86 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors4g3ee48g3j8ovb2sfufkb1xgh 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors4ymn32ugs7fc7ez4f1y4vdr9n 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors5cx8iclyvbivcabq86i8mlot5 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors5dc5ntgnadimckiddcyeoreq 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors5fk7ujd52n5i4lgh9rsd3nr80 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors5r7od1ls1rcal14bwiw1aolf3 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors60wvtf0hlc6m7pu4zcziugmri 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors62xgvb04612dadp03ybl5vf12 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors6xkpc5r938hqmmzagr5yicp7s 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors72pwwp7evk4t6494cyybv7kk7 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors7axcot3v1j7qpduaewb3aezf4 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors7pildy6t6pgcmk0gyewx4z8k1 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors8lcri9ibgd9oj8dt3t8z8nvfx 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors8uzlaa9ndo750hmo4da2vgu2v 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors8zd6u262ixrjkrpgx69mnl0hj 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors96b3ii45gitqpy1kb3tvcvtxv 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors9ofjxssccbksmuzem03z8pl6 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors9upc35ddn1m31thgty51w1nrj 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors9xbdx9ypglb5iceqwefq3l2u 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessors9xim6xjdq0ry1lmc4wm5ei8eh 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsa47105wcmcbzx75lm7p2ciqqb 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsaofthkmarv0q41bodk71vcqi7 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsblypoh2ruc9u3bx9djsfqsntg 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsbp4j8g31qsxo0ekjysvxih5jg 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsbtc8iwv8u9b0f38ikfmodj8ns 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorscosmuqa5m4pz5v4rp16nnpsrn 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsdemns0nrfvv4tm1e985ahms6r 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsdhblu8rt4vbwuf4rib4cwj9lu 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsdirr8g3rs0a9h4cvi2o23j1gy 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsdjndpeyafmkvjrxu9kp0ma1gn 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorse3nu4a2kmhhq7smy0tcmgt45g 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorse63o1t85fyc2j2y6mbe9ytoeh 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorseessl0al0otcsbyqqruvoncpd 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsem8w6wnof1lrw3ubqr6eh9gcj 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsf2jx22njgpl8k21k7scc1t0rw 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsfbf92xd7bth9xw3u4y6q8qcd 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/Accessorsw34mwj3hroscfmyxar5atwjz 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/AnnotationProcessorConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/ApiConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/ApiElementsConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/ArchivesConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/CompileClasspathConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/CompileOnlyApiConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/CompileOnlyConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/DefaultConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/ImplementationConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/MainSourceElementsConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/RuntimeClasspathConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/RuntimeElementsConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/RuntimeOnlyConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/TestAnnotationProcessorConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/TestCompileClasspathConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/TestCompileOnlyConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/TestImplementationConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/TestResultsElementsForTestConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/TestRuntimeClasspathConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_64acc05bf1a66f2c855e386526b4bcff/TestRuntimeOnlyConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors15c80wxji7qdhvcsteytc58m6 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors16h8i8yvcoyu6adqodek0vazl 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors1crcmgpg53bs3tut9tzeov9zs 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors1je17tzadwn2i8n7cte4ejjuc 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors1y0x5zjrw062ti39iwig4ztsq 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors20m89wvqrtvolhrxzuq1utrar 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors21zhoq018jw7yza6oupdxasaq 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors2oadk7let745pm8ahqypkqzlk 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors2s1m7qhtdel2iy5x5gc2gv6f5 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors30fkku080rcvoj344u192bkfh 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors32yk85ycsljiuajc2oknj21lt 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors33qjl5yednlyp9tyvd6yykvt5 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors3dn3adhcpitetfd8lbt7c66zr 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors3lkj8uvuyc1fes1zjdaceqluw 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors45cftp2do14y8dm8cnj0yfjzm 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors46nwrg1rs44ofdqpi7vyy3pfc 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors49985hyy071qu5jjdlrughl86 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors4g3ee48g3j8ovb2sfufkb1xgh 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors4ymn32ugs7fc7ez4f1y4vdr9n 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors5cx8iclyvbivcabq86i8mlot5 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors5dc5ntgnadimckiddcyeoreq 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors5fk7ujd52n5i4lgh9rsd3nr80 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors5r7od1ls1rcal14bwiw1aolf3 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors60wvtf0hlc6m7pu4zcziugmri 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors62xgvb04612dadp03ybl5vf12 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors6xkpc5r938hqmmzagr5yicp7s 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors72pwwp7evk4t6494cyybv7kk7 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors7axcot3v1j7qpduaewb3aezf4 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors7pildy6t6pgcmk0gyewx4z8k1 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors8lcri9ibgd9oj8dt3t8z8nvfx 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors8uzlaa9ndo750hmo4da2vgu2v 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors8zd6u262ixrjkrpgx69mnl0hj 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors96b3ii45gitqpy1kb3tvcvtxv 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors9ofjxssccbksmuzem03z8pl6 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors9upc35ddn1m31thgty51w1nrj 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors9xbdx9ypglb5iceqwefq3l2u 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessors9xim6xjdq0ry1lmc4wm5ei8eh 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsa47105wcmcbzx75lm7p2ciqqb 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsaofthkmarv0q41bodk71vcqi7 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsblypoh2ruc9u3bx9djsfqsntg 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsbp4j8g31qsxo0ekjysvxih5jg 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsbtc8iwv8u9b0f38ikfmodj8ns 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorscosmuqa5m4pz5v4rp16nnpsrn 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsdemns0nrfvv4tm1e985ahms6r 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsdirr8g3rs0a9h4cvi2o23j1gy 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsdjndpeyafmkvjrxu9kp0ma1gn 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorse3nu4a2kmhhq7smy0tcmgt45g 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorse63o1t85fyc2j2y6mbe9ytoeh 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorseessl0al0otcsbyqqruvoncpd 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsem8w6wnof1lrw3ubqr6eh9gcj 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsf2jx22njgpl8k21k7scc1t0rw 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsfbf92xd7bth9xw3u4y6q8qcd 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/Accessorsw34mwj3hroscfmyxar5atwjz 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/AnnotationProcessorConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/ApiElementsConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/ArchivesConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/CompileClasspathConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/CompileOnlyConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/DefaultConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/ImplementationConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/MainSourceElementsConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/RuntimeClasspathConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/RuntimeElementsConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/RuntimeOnlyConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/TestAnnotationProcessorConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/TestCompileClasspathConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/TestCompileOnlyConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/TestImplementationConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/TestResultsElementsForTestConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/TestRuntimeClasspathConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/generated-sources/kotlin-dsl-accessors/kotlin/gradle/kotlin/dsl/accessors/_72efc76fad8c8cf3476d335fb6323bde/TestRuntimeOnlyConfigurationAccessors 2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/resources/main/META-INF/gradle-plugins/my-java 2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/resources/main/META-INF/gradle-plugins/my-java-library 2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.cmd/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/account.cmd/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.cmd/src/main/java/com/techbank/account/cmd/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.cmd/src/main/java/com/techbank/account/cmd/CommandApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.cmd/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.cmd/src/test/java/com/techbank/account/cmd/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.cmd/src/test/java/com/techbank/account/cmd/CommandApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.query/src/main/java/com/techbank/account/query/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.query/src/main/java/com/techbank/account/query/QueryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.query/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.query/src/test/java/com/techbank/account/query/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.query/src/test/java/com/techbank/account/query/QueryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/classes/kotlin/main/My_java_gradle$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/classes/kotlin/main/My_java_gradle$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/kotlin/compileKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/kotlin/compileKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/kotlin/compileKotlin/localstate/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/kotlin/compileKotlin/localstate/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/libs/java-plugins.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/build/libs/java-plugins.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/plugins/java-plugins/src/main/kotlin/my-java.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/plugins/java-plugins/src/main/kotlin/my-java.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-es/cqrs.core/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-es/cqrs.core/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-es/cqrs.core/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-es/cqrs.core/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-es/cqrs.core/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-es/cqrs.core/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cqrs-es/cqrs.core/settings.gradle.kts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +278,21 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Script" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2EKHtyrTTztbzJoM19sK9i0OzoR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -114,11 +312,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="SELECTIVE" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/account.query/src/main/java/com/techbank/account/query" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/account.query/src/main/java/com/techbank/account/query" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -176,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662345116029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated gradle plugin">
+      <created>1662346577088</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662346577088</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Deleted unnecessary files">
+      <created>1662346733820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662346733820</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +411,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Uncommented code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uncommented code" />
+    <MESSAGE value="Updated gradle plugin" />
+    <MESSAGE value="Deleted unnecessary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted unnecessary files" />
   </component>
 </project>

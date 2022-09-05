@@ -7,11 +7,6 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/../cqrs-es/cqrs.core" name="cqrs.core">
-                <projects>
-                  <project path="$PROJECT_DIR$/../cqrs-es/cqrs.core" />
-                </projects>
-              </build>
               <build path="$PROJECT_DIR$/gradle/plugins" name="plugins">
                 <projects>
                   <project path="$PROJECT_DIR$/gradle/plugins" />
@@ -31,9 +26,9 @@
             <option value="$PROJECT_DIR$/account.cmd" />
             <option value="$PROJECT_DIR$/account.common" />
             <option value="$PROJECT_DIR$/account.query" />
+            <option value="$PROJECT_DIR$/cqrs.core" />
             <option value="$PROJECT_DIR$/gradle/plugins" />
             <option value="$PROJECT_DIR$/gradle/plugins/java-plugins" />
-            <option value="$PROJECT_DIR$/../cqrs-es/cqrs.core" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,13 +1,12 @@
 pluginManagement {
     repositories.gradlePluginPortal()
-    includeBuild("../cqrs-es/cqrs.core")
     includeBuild("gradle/plugins")
 }
 
 dependencyResolutionManagement {
-//    repositories.mavenCentra
+    repositories.mavenCentral()
 }
 
 rootProject.name = "bank-account"
 
-include("account.cmd", "account.common", "account.query")
+include("account.cmd", "account.common", "account.query", "cqrs.core")
