@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -62,8 +61,9 @@ import org.gradle.kotlin.dsl.accessors.runtime.*
  * Retrieves the [base][org.gradle.api.plugins.BasePluginExtension] extension.
  */
 internal
-val org.gradle.api.Project.`base`: org.gradle.api.plugins.BasePluginExtension get() =
-    (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("base") as org.gradle.api.plugins.BasePluginExtension
+val org.gradle.api.Project.`base`: org.gradle.api.plugins.BasePluginExtension
+    get() =
+        (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("base") as org.gradle.api.plugins.BasePluginExtension
 
 /**
  * Configures the [base][org.gradle.api.plugins.BasePluginExtension] extension.

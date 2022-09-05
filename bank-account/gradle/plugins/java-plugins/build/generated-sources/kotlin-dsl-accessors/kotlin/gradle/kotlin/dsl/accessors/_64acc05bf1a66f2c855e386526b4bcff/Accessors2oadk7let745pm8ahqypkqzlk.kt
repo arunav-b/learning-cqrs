@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -62,8 +61,9 @@ import org.gradle.kotlin.dsl.accessors.runtime.*
  * Retrieves the [sourceSets][org.gradle.api.tasks.SourceSetContainer] extension.
  */
 internal
-val org.gradle.api.Project.`sourceSets`: org.gradle.api.tasks.SourceSetContainer get() =
-    (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("sourceSets") as org.gradle.api.tasks.SourceSetContainer
+val org.gradle.api.Project.`sourceSets`: org.gradle.api.tasks.SourceSetContainer
+    get() =
+        (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("sourceSets") as org.gradle.api.tasks.SourceSetContainer
 
 /**
  * Configures the [sourceSets][org.gradle.api.tasks.SourceSetContainer] extension.

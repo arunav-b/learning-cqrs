@@ -4,18 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT">
-            <builds>
-              <build path="$PROJECT_DIR$/gradle/plugins" name="plugins">
-                <projects>
-                  <project path="$PROJECT_DIR$/gradle/plugins" />
-                  <project path="$PROJECT_DIR$/gradle/plugins/java-plugins" />
-                </projects>
-              </build>
-            </builds>
-          </compositeBuild>
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="/usr/local/Cellar/gradle/7.5.1/libexec" />
@@ -27,8 +15,6 @@
             <option value="$PROJECT_DIR$/account.common" />
             <option value="$PROJECT_DIR$/account.query" />
             <option value="$PROJECT_DIR$/cqrs.core" />
-            <option value="$PROJECT_DIR$/gradle/plugins" />
-            <option value="$PROJECT_DIR$/gradle/plugins/java-plugins" />
           </set>
         </option>
       </GradleProjectSettings>

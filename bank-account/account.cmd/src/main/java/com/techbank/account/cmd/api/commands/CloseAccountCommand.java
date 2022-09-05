@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 public class CloseAccountCommand extends BaseCommand {
-    public CloseAccountCommand(String id) {
-        super(id);
-    }
+  public CloseAccountCommand(String id) {
+    super(id);
+  }
 }

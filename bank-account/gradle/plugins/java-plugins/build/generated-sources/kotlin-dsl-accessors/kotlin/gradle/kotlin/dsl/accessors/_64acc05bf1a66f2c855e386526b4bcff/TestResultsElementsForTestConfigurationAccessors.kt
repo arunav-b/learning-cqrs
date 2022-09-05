@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -188,7 +187,10 @@ fun DependencyConstraintHandler.`testResultsElementsForTest`(constraintNotation:
  * @see [DependencyConstraintHandler.add]
  */
 internal
-fun DependencyConstraintHandler.`testResultsElementsForTest`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`testResultsElementsForTest`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("testResultsElementsForTest", constraintNotation, block)
 
 /**
@@ -215,7 +217,7 @@ fun ArtifactHandler.`testResultsElementsForTest`(artifactNotation: Any): Publish
 internal
 fun ArtifactHandler.`testResultsElementsForTest`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("testResultsElementsForTest", artifactNotation, configureAction)
 

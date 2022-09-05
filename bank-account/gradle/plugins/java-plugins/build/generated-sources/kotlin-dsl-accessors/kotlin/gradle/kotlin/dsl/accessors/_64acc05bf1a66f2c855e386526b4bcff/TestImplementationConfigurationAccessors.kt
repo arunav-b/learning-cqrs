@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -188,7 +187,10 @@ fun DependencyConstraintHandler.`testImplementation`(constraintNotation: Any): D
  * @see [DependencyConstraintHandler.add]
  */
 internal
-fun DependencyConstraintHandler.`testImplementation`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`testImplementation`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("testImplementation", constraintNotation, block)
 
 /**
@@ -215,7 +217,7 @@ fun ArtifactHandler.`testImplementation`(artifactNotation: Any): PublishArtifact
 internal
 fun ArtifactHandler.`testImplementation`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("testImplementation", artifactNotation, configureAction)
 

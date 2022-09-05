@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -188,7 +187,10 @@ fun DependencyConstraintHandler.`compileOnlyApi`(constraintNotation: Any): Depen
  * @see [DependencyConstraintHandler.add]
  */
 internal
-fun DependencyConstraintHandler.`compileOnlyApi`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`compileOnlyApi`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("compileOnlyApi", constraintNotation, block)
 
 /**
@@ -215,7 +217,7 @@ fun ArtifactHandler.`compileOnlyApi`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`compileOnlyApi`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("compileOnlyApi", artifactNotation, configureAction)
 

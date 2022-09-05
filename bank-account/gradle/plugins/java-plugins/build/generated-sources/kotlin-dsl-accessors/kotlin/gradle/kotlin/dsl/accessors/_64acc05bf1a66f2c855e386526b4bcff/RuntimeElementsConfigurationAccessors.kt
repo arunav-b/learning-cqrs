@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -196,7 +195,10 @@ fun DependencyConstraintHandler.`runtimeElements`(constraintNotation: Any): Depe
  */
 @Deprecated(message = "The runtimeElements configuration has been deprecated for dependency declaration. Please use the 'implementation' or 'api' or 'compileOnly' or 'runtimeOnly' configuration instead.")
 internal
-fun DependencyConstraintHandler.`runtimeElements`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`runtimeElements`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("runtimeElements", constraintNotation, block)
 
 /**
@@ -223,7 +225,7 @@ fun ArtifactHandler.`runtimeElements`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`runtimeElements`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("runtimeElements", artifactNotation, configureAction)
 

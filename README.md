@@ -8,17 +8,26 @@
 
 ### Message
 
+A message can be:
+
 - Command
-- Events
-- Query
+- Event
 
 ### Command
 
-Command is a message that needs to be processed.
+Command is a message that describes something that we want it to be done. It encapsulates the information required to
+undertake the action.
 
 ### Event
 
-Event is a message that is generated after processing a message.
+Events are objects that describe something that has occurred in the application. A typical source of events is the
+aggregate. When something has occurred with the aggregate an event is generated.
+
+### Aggregate
+
+- Aggregate is an entity or group of entities that is always kept in a consistent state.
+- Aggregate root is the entity within aggregate that is responsible for maintaining the consistent state.
+- Primary building block for implementing a command model in any CQRS application.
 
 ### Query
 

@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -62,8 +61,9 @@ import org.gradle.kotlin.dsl.accessors.runtime.*
  * Retrieves the [defaultArtifacts][org.gradle.api.internal.plugins.DefaultArtifactPublicationSet] extension.
  */
 internal
-val org.gradle.api.Project.`defaultArtifacts`: org.gradle.api.internal.plugins.DefaultArtifactPublicationSet get() =
-    (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("defaultArtifacts") as org.gradle.api.internal.plugins.DefaultArtifactPublicationSet
+val org.gradle.api.Project.`defaultArtifacts`: org.gradle.api.internal.plugins.DefaultArtifactPublicationSet
+    get() =
+        (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("defaultArtifacts") as org.gradle.api.internal.plugins.DefaultArtifactPublicationSet
 
 /**
  * Configures the [defaultArtifacts][org.gradle.api.internal.plugins.DefaultArtifactPublicationSet] extension.

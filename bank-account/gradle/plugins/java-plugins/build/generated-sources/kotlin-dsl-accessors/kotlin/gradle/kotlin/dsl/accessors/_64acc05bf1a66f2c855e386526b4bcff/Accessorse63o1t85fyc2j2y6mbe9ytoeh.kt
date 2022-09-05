@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -62,8 +61,9 @@ import org.gradle.kotlin.dsl.accessors.runtime.*
  * Retrieves the [testing][org.gradle.testing.base.TestingExtension] extension.
  */
 internal
-val org.gradle.api.Project.`testing`: org.gradle.testing.base.TestingExtension get() =
-    (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("testing") as org.gradle.testing.base.TestingExtension
+val org.gradle.api.Project.`testing`: org.gradle.testing.base.TestingExtension
+    get() =
+        (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("testing") as org.gradle.testing.base.TestingExtension
 
 /**
  * Configures the [testing][org.gradle.testing.base.TestingExtension] extension.

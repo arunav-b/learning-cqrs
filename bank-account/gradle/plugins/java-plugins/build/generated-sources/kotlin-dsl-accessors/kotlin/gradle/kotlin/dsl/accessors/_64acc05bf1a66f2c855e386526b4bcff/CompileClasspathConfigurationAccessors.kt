@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -196,7 +195,10 @@ fun DependencyConstraintHandler.`compileClasspath`(constraintNotation: Any): Dep
  */
 @Deprecated(message = "The compileClasspath configuration has been deprecated for dependency declaration. Please use the 'implementation' or 'api' or 'compileOnly' configuration instead.")
 internal
-fun DependencyConstraintHandler.`compileClasspath`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`compileClasspath`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("compileClasspath", constraintNotation, block)
 
 /**
@@ -223,7 +225,7 @@ fun ArtifactHandler.`compileClasspath`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`compileClasspath`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("compileClasspath", artifactNotation, configureAction)
 

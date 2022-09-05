@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -62,8 +61,9 @@ import org.gradle.kotlin.dsl.accessors.runtime.*
  * Retrieves the [javaToolchains][org.gradle.jvm.toolchain.JavaToolchainService] extension.
  */
 internal
-val org.gradle.api.Project.`javaToolchains`: org.gradle.jvm.toolchain.JavaToolchainService get() =
-    (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("javaToolchains") as org.gradle.jvm.toolchain.JavaToolchainService
+val org.gradle.api.Project.`javaToolchains`: org.gradle.jvm.toolchain.JavaToolchainService
+    get() =
+        (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("javaToolchains") as org.gradle.jvm.toolchain.JavaToolchainService
 
 /**
  * Configures the [javaToolchains][org.gradle.jvm.toolchain.JavaToolchainService] extension.

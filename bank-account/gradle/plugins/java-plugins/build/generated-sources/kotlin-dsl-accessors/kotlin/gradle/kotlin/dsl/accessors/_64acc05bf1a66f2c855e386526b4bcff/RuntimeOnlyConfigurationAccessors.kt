@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -188,7 +187,10 @@ fun DependencyConstraintHandler.`runtimeOnly`(constraintNotation: Any): Dependen
  * @see [DependencyConstraintHandler.add]
  */
 internal
-fun DependencyConstraintHandler.`runtimeOnly`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`runtimeOnly`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("runtimeOnly", constraintNotation, block)
 
 /**
@@ -215,7 +217,7 @@ fun ArtifactHandler.`runtimeOnly`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`runtimeOnly`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("runtimeOnly", artifactNotation, configureAction)
 

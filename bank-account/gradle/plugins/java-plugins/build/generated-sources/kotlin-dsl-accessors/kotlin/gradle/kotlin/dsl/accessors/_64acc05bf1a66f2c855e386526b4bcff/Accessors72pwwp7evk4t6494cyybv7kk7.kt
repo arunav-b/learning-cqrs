@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -62,8 +61,9 @@ import org.gradle.kotlin.dsl.accessors.runtime.*
  * Retrieves the [ext][org.gradle.api.plugins.ExtraPropertiesExtension] extension.
  */
 internal
-val org.gradle.api.tasks.SourceSetContainer.`ext`: org.gradle.api.plugins.ExtraPropertiesExtension get() =
-    (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("ext") as org.gradle.api.plugins.ExtraPropertiesExtension
+val org.gradle.api.tasks.SourceSetContainer.`ext`: org.gradle.api.plugins.ExtraPropertiesExtension
+    get() =
+        (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("ext") as org.gradle.api.plugins.ExtraPropertiesExtension
 
 /**
  * Configures the [ext][org.gradle.api.plugins.ExtraPropertiesExtension] extension.

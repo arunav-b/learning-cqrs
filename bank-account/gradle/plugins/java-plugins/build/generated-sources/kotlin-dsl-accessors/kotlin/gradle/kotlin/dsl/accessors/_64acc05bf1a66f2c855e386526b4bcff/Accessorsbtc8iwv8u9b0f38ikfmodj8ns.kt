@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -62,8 +61,9 @@ import org.gradle.kotlin.dsl.accessors.runtime.*
  * Retrieves the [reporting][org.gradle.api.reporting.ReportingExtension] extension.
  */
 internal
-val org.gradle.api.Project.`reporting`: org.gradle.api.reporting.ReportingExtension get() =
-    (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("reporting") as org.gradle.api.reporting.ReportingExtension
+val org.gradle.api.Project.`reporting`: org.gradle.api.reporting.ReportingExtension
+    get() =
+        (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("reporting") as org.gradle.api.reporting.ReportingExtension
 
 /**
  * Configures the [reporting][org.gradle.api.reporting.ReportingExtension] extension.

@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -196,7 +195,10 @@ fun DependencyConstraintHandler.`default`(constraintNotation: Any): DependencyCo
  */
 @Deprecated(message = "The default configuration has been deprecated for dependency declaration. Please use the 'implementation' or 'api' configuration instead.")
 internal
-fun DependencyConstraintHandler.`default`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`default`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("default", constraintNotation, block)
 
 /**
@@ -223,7 +225,7 @@ fun ArtifactHandler.`default`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`default`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("default", artifactNotation, configureAction)
 

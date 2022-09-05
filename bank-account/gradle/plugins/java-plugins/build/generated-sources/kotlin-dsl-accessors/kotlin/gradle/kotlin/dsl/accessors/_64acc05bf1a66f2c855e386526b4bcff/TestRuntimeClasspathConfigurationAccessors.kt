@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -196,7 +195,10 @@ fun DependencyConstraintHandler.`testRuntimeClasspath`(constraintNotation: Any):
  */
 @Deprecated(message = "The testRuntimeClasspath configuration has been deprecated for dependency declaration. Please use the 'testImplementation' or 'testCompileOnly' or 'testRuntimeOnly' configuration instead.")
 internal
-fun DependencyConstraintHandler.`testRuntimeClasspath`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`testRuntimeClasspath`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("testRuntimeClasspath", constraintNotation, block)
 
 /**
@@ -223,7 +225,7 @@ fun ArtifactHandler.`testRuntimeClasspath`(artifactNotation: Any): PublishArtifa
 internal
 fun ArtifactHandler.`testRuntimeClasspath`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("testRuntimeClasspath", artifactNotation, configureAction)
 

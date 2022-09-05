@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -188,7 +187,10 @@ fun DependencyConstraintHandler.`testCompileOnly`(constraintNotation: Any): Depe
  * @see [DependencyConstraintHandler.add]
  */
 internal
-fun DependencyConstraintHandler.`testCompileOnly`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`testCompileOnly`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("testCompileOnly", constraintNotation, block)
 
 /**
@@ -215,7 +217,7 @@ fun ArtifactHandler.`testCompileOnly`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`testCompileOnly`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("testCompileOnly", artifactNotation, configureAction)
 

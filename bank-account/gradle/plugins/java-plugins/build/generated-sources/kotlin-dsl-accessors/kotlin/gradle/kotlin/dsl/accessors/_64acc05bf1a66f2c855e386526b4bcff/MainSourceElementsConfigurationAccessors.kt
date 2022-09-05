@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -188,7 +187,10 @@ fun DependencyConstraintHandler.`mainSourceElements`(constraintNotation: Any): D
  * @see [DependencyConstraintHandler.add]
  */
 internal
-fun DependencyConstraintHandler.`mainSourceElements`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`mainSourceElements`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("mainSourceElements", constraintNotation, block)
 
 /**
@@ -215,7 +217,7 @@ fun ArtifactHandler.`mainSourceElements`(artifactNotation: Any): PublishArtifact
 internal
 fun ArtifactHandler.`mainSourceElements`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("mainSourceElements", artifactNotation, configureAction)
 

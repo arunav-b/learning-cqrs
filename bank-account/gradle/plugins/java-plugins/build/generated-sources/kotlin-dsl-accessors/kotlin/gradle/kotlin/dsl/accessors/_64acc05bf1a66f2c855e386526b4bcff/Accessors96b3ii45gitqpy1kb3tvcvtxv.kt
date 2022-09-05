@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -62,8 +61,9 @@ import org.gradle.kotlin.dsl.accessors.runtime.*
  * Retrieves the [java][org.gradle.api.plugins.JavaPluginExtension] extension.
  */
 internal
-val org.gradle.api.Project.`java`: org.gradle.api.plugins.JavaPluginExtension get() =
-    (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("java") as org.gradle.api.plugins.JavaPluginExtension
+val org.gradle.api.Project.`java`: org.gradle.api.plugins.JavaPluginExtension
+    get() =
+        (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("java") as org.gradle.api.plugins.JavaPluginExtension
 
 /**
  * Configures the [java][org.gradle.api.plugins.JavaPluginExtension] extension.

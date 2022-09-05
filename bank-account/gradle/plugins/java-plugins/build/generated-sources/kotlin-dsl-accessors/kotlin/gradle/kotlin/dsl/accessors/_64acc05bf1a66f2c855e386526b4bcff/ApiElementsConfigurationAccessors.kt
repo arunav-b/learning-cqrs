@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -196,7 +195,10 @@ fun DependencyConstraintHandler.`apiElements`(constraintNotation: Any): Dependen
  */
 @Deprecated(message = "The apiElements configuration has been deprecated for dependency declaration. Please use the 'implementation' or 'api' or 'compileOnly' configuration instead.")
 internal
-fun DependencyConstraintHandler.`apiElements`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`apiElements`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("apiElements", constraintNotation, block)
 
 /**
@@ -223,7 +225,7 @@ fun ArtifactHandler.`apiElements`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`apiElements`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("apiElements", artifactNotation, configureAction)
 

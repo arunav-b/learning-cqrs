@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -196,7 +195,10 @@ fun DependencyConstraintHandler.`runtimeClasspath`(constraintNotation: Any): Dep
  */
 @Deprecated(message = "The runtimeClasspath configuration has been deprecated for dependency declaration. Please use the 'implementation' or 'api' or 'compileOnly' or 'runtimeOnly' configuration instead.")
 internal
-fun DependencyConstraintHandler.`runtimeClasspath`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`runtimeClasspath`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("runtimeClasspath", constraintNotation, block)
 
 /**
@@ -223,7 +225,7 @@ fun ArtifactHandler.`runtimeClasspath`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`runtimeClasspath`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("runtimeClasspath", artifactNotation, configureAction)
 

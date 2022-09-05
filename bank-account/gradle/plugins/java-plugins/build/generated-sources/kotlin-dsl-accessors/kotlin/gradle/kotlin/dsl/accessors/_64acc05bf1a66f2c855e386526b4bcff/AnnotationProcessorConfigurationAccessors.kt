@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -188,7 +187,10 @@ fun DependencyConstraintHandler.`annotationProcessor`(constraintNotation: Any): 
  * @see [DependencyConstraintHandler.add]
  */
 internal
-fun DependencyConstraintHandler.`annotationProcessor`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`annotationProcessor`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("annotationProcessor", constraintNotation, block)
 
 /**
@@ -215,7 +217,7 @@ fun ArtifactHandler.`annotationProcessor`(artifactNotation: Any): PublishArtifac
 internal
 fun ArtifactHandler.`annotationProcessor`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("annotationProcessor", artifactNotation, configureAction)
 

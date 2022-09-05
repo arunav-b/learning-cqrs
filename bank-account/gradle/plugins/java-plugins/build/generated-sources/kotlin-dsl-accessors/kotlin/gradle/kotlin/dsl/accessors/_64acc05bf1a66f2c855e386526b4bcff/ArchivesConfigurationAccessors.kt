@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2018 the original author or authors.
  *
@@ -196,7 +195,10 @@ fun DependencyConstraintHandler.`archives`(constraintNotation: Any): DependencyC
  */
 @Deprecated(message = "The archives configuration has been deprecated for dependency declaration. Please use the 'implementation' or 'api' configuration instead.")
 internal
-fun DependencyConstraintHandler.`archives`(constraintNotation: Any, block: DependencyConstraint.() -> Unit): DependencyConstraint? =
+fun DependencyConstraintHandler.`archives`(
+    constraintNotation: Any,
+    block: DependencyConstraint.() -> Unit
+): DependencyConstraint? =
     add("archives", constraintNotation, block)
 
 /**
@@ -223,7 +225,7 @@ fun ArtifactHandler.`archives`(artifactNotation: Any): PublishArtifact =
 internal
 fun ArtifactHandler.`archives`(
     artifactNotation: Any,
-    configureAction:  ConfigurablePublishArtifact.() -> Unit
+    configureAction: ConfigurablePublishArtifact.() -> Unit
 ): PublishArtifact =
     add("archives", artifactNotation, configureAction)
 
