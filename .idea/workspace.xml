@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bb112d5-8eb7-44e1-94b9-ce6ba214fc2d" name="Changes" comment="Readme">
-      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/AccountAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="2bb112d5-8eb7-44e1-94b9-ce6ba214fc2d" name="Changes" comment="Aggregate">
+      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/EventStoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infra/AccountEventSourcingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infra/AccountEventStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/events/EventModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/exceptions/AggregateNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/exceptions/ConcurrencyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/handlers/EventSourcingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/infra/EventStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -14,13 +20,9 @@
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/events/AccountClosedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/events/AccountClosedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/events/AccountOpenedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/events/AccountOpenedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/events/FundsDepositedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/events/FundsDepositedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/events/FundsWithdrawnEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/events/FundsWithdrawnEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/events/BaseEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/events/BaseEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/messages/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/messages/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/AccountAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/AccountAggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/domain/AggregateRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/domain/AggregateRoot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +49,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/a95c9f4bc8e3000f7b7adfdf5732b13cca5451e/lombok-1.18.24-sources.jar!/lombok/experimental/SuperBuilder.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="2EKv2BDfNE3o5D1I4xfzfnZKKrT" />
   <component name="ProjectLevelVcsManager">
@@ -69,7 +75,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662358367093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aggregate">
+      <created>1662396453635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662396453635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +126,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="CommandDispatcher" />
     <MESSAGE value="Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme" />
+    <MESSAGE value="Aggregate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggregate" />
   </component>
 </project>
