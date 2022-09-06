@@ -5,9 +5,12 @@ import com.techbank.cqrs.core.handlers.EventSourcingHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.logging.Logger;
+
 @Service
 public class AccountCommandHandler implements CommandHandler {
 
+  private final Logger logger = Logger.getLogger(AccountCommandHandler.class.getName());
   @Autowired EventSourcingHandler<AccountAggregate> eventSourcingHandler;
 
   @Override
@@ -26,6 +29,7 @@ public class AccountCommandHandler implements CommandHandler {
   @Override
   public void handle(DepositFundsCommand command) {
     var aggregate = eventSourcingHandler.getById(command.getId());
+    logger.info("Aggregate=" + aggregate.getId());
     aggregate.depositFunds(command.getAmount());
     eventSourcingHandler.save(aggregate);
   }

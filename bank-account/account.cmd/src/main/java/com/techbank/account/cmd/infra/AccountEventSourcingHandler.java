@@ -16,17 +16,17 @@ public class AccountEventSourcingHandler implements EventSourcingHandler<Account
   @Autowired private EventStore eventStore;
 
   @Override
-  public void save(AggregateRoot aggregateRoot) {
+  public void save(AggregateRoot aggregate) {
     eventStore.saveEvents(
-        aggregateRoot.getId(), aggregateRoot.getUncommittedChanges(), aggregateRoot.getVersion());
-    aggregateRoot.markChangesAsCommitted();
+        aggregate.getId(), aggregate.getUncommittedChanges(), aggregate.getVersion());
+    aggregate.markChangesAsCommitted();
   }
 
   @Override
   public AccountAggregate getById(String id) {
     var aggregate = new AccountAggregate();
     var events = eventStore.getEvents(id);
-    if (events != null || !events.isEmpty()) {
+    if (events != null && !events.isEmpty()) {
       aggregate.replayEvents(events);
       var latestVersion = events.stream().map(BaseEvent::getVersion).max(Comparator.naturalOrder());
       aggregate.setVersion(latestVersion.get());
