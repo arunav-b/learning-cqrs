@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bb112d5-8eb7-44e1-94b9-ce6ba214fc2d" name="Changes" comment="Aggregate">
-      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/EventStoreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infra/AccountEventSourcingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infra/AccountEventStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/events/EventModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/exceptions/AggregateNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/exceptions/ConcurrencyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/handlers/EventSourcingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/infra/EventStore.java" afterDir="false" />
+    <list default="true" id="2bb112d5-8eb7-44e1-94b9-ce6ba214fc2d" name="Changes" comment="EventStore Model">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/AccountCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/commands/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/api/dto/OpenAccountResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infra/AccountEventProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.common/src/main/java/com/techbank/account/common/dto/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/techbank/account/query/domain/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/techbank/account/query/domain/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/techbank/account/query/infra/consumers/AccountEventConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/techbank/account/query/infra/consumers/EventConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/techbank/account/query/infra/handlers/AccountEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/account.query/src/main/java/com/techbank/account/query/infra/handlers/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/producers/EventProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -20,9 +26,11 @@
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/AccountAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/domain/AccountAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/domain/AggregateRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/cqrs.core/src/main/java/com/techbank/cqrs/core/domain/AggregateRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/CommandApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/CommandApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infra/AccountEventStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.cmd/src/main/java/com/techbank/account/cmd/infra/AccountEventStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.cmd/src/test/java/com/techbank/account/cmd/CommandApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/account.query/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/account.query/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +82,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -107,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662396453635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="EventStore Model">
+      <created>1662441379533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662441379533</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +143,7 @@
     <MESSAGE value="CommandDispatcher" />
     <MESSAGE value="Readme" />
     <MESSAGE value="Aggregate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggregate" />
+    <MESSAGE value="EventStore Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="EventStore Model" />
   </component>
 </project>
